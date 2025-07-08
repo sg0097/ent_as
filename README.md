@@ -31,12 +31,19 @@ Mock Data Persistence	In-memory only (no backend or DB)
 📁 Architecture Overview
 
 /src
+
 ├── components/         # Reusable UI components (Forms, Cards, Modals)
+
 ├── context/            # DataProvider - global state using React Context
+
 ├── pages/              # Page views: Dashboard, Patients, Reports
+
 ├── types/              # Type declarations for patients/incidents
+
 ├── App.jsx             # Root component with route configs
+
 ├── main.jsx            # Entry point of app
+
 └── index.css           # Tailwind and global styles
 
 ⚙️ Core Features
@@ -83,6 +90,7 @@ Export patient or incident reports to PDF/CSV
 Improve mobile responsiveness and accessibility
 
 👨‍💻 Author
+
 Shivam Gupta
 
 https://github.com/sg0097
